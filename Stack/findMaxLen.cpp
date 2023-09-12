@@ -15,12 +15,12 @@ void solve(){
     else{
       if(!st.empty())
         st.pop();
-    }
     if(!st.empty())
       r = i-st.top() > r ? i-st.top() : r;
     else
       st.push(i);
   }
+}
   cout << r << endl;
 }
 
